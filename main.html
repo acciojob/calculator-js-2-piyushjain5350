@@ -9,6 +9,30 @@
   </head>
   <body>
     <!-- Write yout code here -->
+	  <div class="calculator">
+        <input type="text" id="input">
+        <div id="block0" onclick="addNum(0)">0</div>
+        <div id="block1" onclick="addNum(1)">1</div>
+        <div id="block2" onclick="addNum(2)">2</div>
+        <div id="block3" onclick="addNum(3)">3</div>
+        <div id="block4" onclick="addNum(4)">4</div>
+        <div id="block5" onclick="addNum(5)">5</div>
+        <div id="block6" onclick="addNum(6)">6</div>
+        <div id="block7" onclick="addNum(7)">7</div>
+        <div id="block8" onclick="addNum(8)">8</div>
+        <div id="block9" onclick="addNum(9)">9</div>
+
+        <div id="plus"     onclick="addOp('+')" >+</div>
+        <div id="minus"    onclick="addOp('-')" >-</div>
+        <div id="multiply" onclick="addOp('*')" >*</div>
+        <div id="divide"   onclick="addOp('/')" >/</div>
+        <div id="clr"      onclick="handleClear()" >C</div>
+
+        <div id="dot" onclick="addNum('.')">.</div>
+
+        <div id="ans" onclick="handleClick()">=</div>
+    </div>
+
 
     <script src="script.js"></script>
   </body>
